@@ -26,7 +26,7 @@ Next, in order for restaurant rating history to be preserved after
 application restarts, create a directory somewhere in your filesystem
 that allows Docker to read and write a volume. On macOS I did the following:
 ```
-$ sudo mkdir /usr/local/mongo/data/db
+$ sudo mkdir -p /usr/local/mongo/data/db
 $ sudo chown -R wembleyleach:admin /usr/local/mongo
 $ sudo chmod -R 775 /usr/local/mongo
 ```

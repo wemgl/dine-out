@@ -30,7 +30,9 @@ $ sudo mkdir -p /usr/local/mongo/data/db
 $ sudo chown -R wembleyleach:admin /usr/local/mongo
 $ sudo chmod -R 775 /usr/local/mongo
 ```
-Alternatively, remove the `volumes` configuration from the `mongo` service in the
+and added `/usr/local/mongo/data/db` to the list of host directories that can be
+bind mounted into Docker containers in the `Docker>Preferences…>File Sharing` menu
+in macOS. Alternatively, remove the `volumes` configuration from the `mongo` service in the
 `docker-compose.yml` file if you don't really care about this feature.
 
 Finally, run `docker-compose up --build -d` from the root

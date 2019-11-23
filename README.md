@@ -2,7 +2,7 @@
 A restaurant discovery application for users to discover and rate
 restaurants that they've eaten at, or plan to visit.
 
-![Dine Out Screenshot](https://imgur.com/yU9cPHg)
+![Dine Out Screenshot](https://i.imgur.com/yU9cPHg.png)
 
 ## Setup
 Download and install:
